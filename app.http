@@ -1,0 +1,20 @@
+GET http://localhost:3001/api/products
+###
+
+GET http://localhost:3001/api/products/1
+###
+
+POST http://localhost:3001/api/enquiries
+Content-Type: application/json
+
+{   
+    "product_id": 1,
+    "name" : "Jhon Doe",
+    "email": "jhon33@gmail.com",
+    "phone": "2899-8803890",
+    "message": "Enquiry about more details of this Item"
+}
+###
+
+GET http://localhost:3001/api/enquiries
+###
